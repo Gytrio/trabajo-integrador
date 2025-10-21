@@ -1,0 +1,42 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Marvel's Spider-Man 2",
+    "price": 79.99,
+    "category": "Acción/Aventura",
+    "description": "La continuación de la saga de Spider-Man para PS5, con Miles Morales y Peter Parker trabajando juntos.",
+    "imageUrl": "https://example.com/images/spiderman2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Horizon Forbidden West",
+    "price": 69.99,
+    "category": "RPG/Aventura",
+    "description": "Aloy explora nuevas tierras al oeste, enfrentándose a nuevas máquinas y misterios.",
+    "imageUrl": "https://example.com/images/horizon_forbidden_west.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ratchet & Clank: Rift Apart",
+    "price": 69.99,
+    "category": "Plataformas/Aventura",
+    "description": "Una aventura interdimensional que aprovecha al máximo las capacidades del PS5.",
+    "imageUrl": "https://example.com/images/ratchet_rift_apart.jpg"
+  },
+  {
+    "id": 4,
+    "name": "God of War Ragnarök",
+    "price": 79.99,
+    "category": "Acción",
+    "description": "Kratos y Atreus se preparan para el fin de los tiempos en una épica nórdica.",
+    "imageUrl": "https://example.com/images/god_of_war_ragnarok.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Resident Evil 4 Remake",
+    "price": 59.99,
+    "category": "Horror/Shooter",
+    "description": "Reimaginación del clásico RE4 con gráficos modernos y nuevas mecánicas para PS5.",
+    "imageUrl": "https://example.com/images/resident_evil4_remake.jpg"
+  }
+]
