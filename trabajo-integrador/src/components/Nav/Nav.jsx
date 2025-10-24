@@ -10,7 +10,7 @@ export const Nav = () => {
             <ul>
                 <li><Link to="/">Pagina principal</Link></li>
                 <li><Link to="/category/PS5">PS5</Link></li>
-                <li><Link to="/category/Nintendo">Nintendo</Link></li>
+                <li><Link to="/category/Switch">Switch</Link></li>
                 <li style={{ position: "relative" }}>
                     <Link to="/cart">Carrito</Link>
                     {getTotalItems() > 0 && (
