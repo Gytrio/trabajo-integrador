@@ -29,7 +29,7 @@ export const ItemListContainer = () => {
 
     return (
         <section className="product-section">
-            <h1>{platform ? `Platform: ${platform}` : "All Products"}</h1>
+            <h1>{platform ? `Platform: ${platform}` : "Lanzamientos recientes"}</h1>
             <div className="product-grid">
                 <ItemList list={products} />
             </div>
