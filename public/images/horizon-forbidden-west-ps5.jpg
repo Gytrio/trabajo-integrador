@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="960" viewBox="0 0 640 960" role="img" aria-label="Horizon Forbidden West cover illustration">
+  <defs>
+    <linearGradient id="hf-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d7f4ff"/>
+      <stop offset="60%" stop-color="#8fd1ff"/>
+      <stop offset="100%" stop-color="#056a91"/>
+    </linearGradient>
+    <radialGradient id="hf-sun" cx="30%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#fff6b7"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hf-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f9ecf"/>
+      <stop offset="100%" stop-color="#0c4f73"/>
+    </linearGradient>
+    <filter id="hf-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0c2742" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="640" height="960" fill="url(#hf-bg)"/>
+  <rect width="640" height="180" fill="#f5f7ff"/>
+  <text x="40" y="130" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="72" font-weight="700" fill="#111">PS5</text>
+  <rect x="30" y="170" width="580" height="10" fill="#0f1a3d"/>
+  <circle cx="190" cy="210" r="150" fill="url(#hf-sun)"/>
+  <rect x="0" y="520" width="640" height="200" fill="url(#hf-sea)"/>
+  <path d="M0 520 q80 -80 180 -70 q130 15 250 -40 q80 -38 210 -10 v220 h-640z" fill="#1aa38b"/>
+  <path d="M60 520 q90 -65 180 -60 q140 10 240 -45 q80 -40 160 -10 v40 q-70 -20 -150 15 q-100 45 -240 45 q-105 0 -190 30z" fill="#0b735c" opacity="0.8"/>
+  <g filter="url(#hf-shadow)">
+    <path d="M320 340 q-10 -80 40 -130 q70 25 70 120 q0 75 -50 110 q-50 -25 -60 -100z" fill="#2d3c54"/>
+    <path d="M380 345 q70 -30 140 5 q-18 100 -130 120 q-35 -30 -25 -125z" fill="#3b5878"/>
+    <path d="M210 380 q-25 120 45 190 q65 0 120 -50 q15 -80 -35 -160 q-50 -55 -130 -35z" fill="#e9e2d1"/>
+    <path d="M240 430 q40 -20 95 -10 q-5 45 -25 80 q-50 15 -80 -70z" fill="#b56f3a"/>
+    <path d="M265 545 q-35 40 -30 80 q45 25 90 0 q0 -50 -35 -80 z" fill="#a83d2b"/>
+    <path d="M280 420 q-25 -20 -50 -15 q-15 40 10 80 q30 -15 40 -65z" fill="#2d3c54" opacity="0.8"/>
+  </g>
+  <text x="320" y="720" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="78" fill="#f7fbff" letter-spacing="2">HORIZON</text>
+  <text x="320" y="775" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="54" fill="#f7fbff" letter-spacing="5">FORBIDDEN WEST</text>
+  <text x="320" y="835" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="26" fill="#dcefff" letter-spacing="3">ALOY • COSTA OESTE</text>
+  <rect x="60" y="860" width="220" height="70" rx="10" fill="#0c4f73" stroke="#6bd0ff" stroke-width="4"/>
+  <text x="170" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="30" fill="#e8fbff">ACCIÓN</text>
+  <rect x="360" y="860" width="220" height="70" rx="10" fill="#077c58" stroke="#b1ffd8" stroke-width="4"/>
+  <text x="470" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="28" fill="#e6ffee">MUNDO ABIERTO</text>
+</svg>

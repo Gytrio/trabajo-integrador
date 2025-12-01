@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="960" viewBox="0 0 640 960" role="img" aria-label="Marvel's Spider-Man 2 cover illustration">
+  <defs>
+    <linearGradient id="sm2-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b1000f"/>
+      <stop offset="50%" stop-color="#7b0012"/>
+      <stop offset="100%" stop-color="#210014"/>
+    </linearGradient>
+    <radialGradient id="sm2-glow" cx="50%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#ff3232" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#210014" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0b0d2b" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="640" height="960" fill="url(#sm2-bg)"/>
+  <rect width="640" height="180" fill="#f5f7ff"/>
+  <text x="40" y="130" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="72" font-weight="700" fill="#111">PS5</text>
+  <rect x="30" y="170" width="580" height="10" fill="#0f1a3d"/>
+  <circle cx="320" cy="370" r="230" fill="url(#sm2-glow)"/>
+  <g filter="url(#shadow)">
+    <path d="M230 470 q-20 -160 70 -250 q80 10 110 170 q15 80 -5 160 z" fill="#e1111b"/>
+    <path d="M305 470 q-12 -145 55 -225 q65 15 90 155 q12 70 -8 145 z" fill="#121c3f"/>
+    <path d="M270 505 q-30 120 -25 155 q40 35 75 35 q55 0 100 -30 q-8 -80 -40 -160 z" fill="#121c3f"/>
+    <path d="M330 512 q0 35 -20 60 q25 25 55 25 q18 -30 0 -70 q-15 -25 -35 -15z" fill="#e1111b"/>
+    <path d="M245 360 q30 -15 65 -10 q-5 35 -25 60 q-25 -5 -40 -30z" fill="#fff" opacity="0.9"/>
+    <path d="M370 360 q35 -5 60 8 q-8 35 -30 55 q-24 -6 -38 -28z" fill="#fff" opacity="0.85"/>
+    <path d="M285 595 q-15 10 -10 25 q45 15 90 0 q5 -12 -8 -25 q-34 12 -72 0z" fill="#0f1a3d"/>
+  </g>
+  <text x="320" y="680" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="64" fill="#ffffff" letter-spacing="1">MARVEL</text>
+  <text x="320" y="745" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="88" fill="#ffffff">SPIDER-MAN 2</text>
+  <text x="320" y="800" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="26" fill="#c2d3ff" letter-spacing="3">PETER PARKER • MILES MORALES</text>
+  <rect x="40" y="840" width="220" height="80" rx="8" fill="#0f1a3d" stroke="#4e5ea8" stroke-width="4"/>
+  <text x="150" y="890" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="34" fill="#e4ecff">PS5 EXCLUSIVO</text>
+  <rect x="380" y="840" width="220" height="80" rx="8" fill="#6d0b13" stroke="#ff3b3b" stroke-width="4"/>
+  <text x="490" y="890" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="30" fill="#ffe0e0">DUO HEROES</text>
+</svg>

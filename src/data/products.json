@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Marvel's Spider-Man 2",
+    "price": 79.99,
+    "description": "La continuación de la saga de Spider-Man para PS5, con Miles Morales y Peter Parker trabajando juntos.",
+    "imageUrl": "/images/spider-man-2-ps5.jpg",
+    "platform": ["PS5"]
+  },
+  {
+    "id": 2,
+    "name": "Horizon Forbidden West",
+    "price": 69.99,
+    "description": "Aloy explora nuevas tierras al oeste, enfrentándose a nuevas máquinas y misterios.",
+    "imageUrl": "/images/horizon-forbidden-west-ps5.jpg",
+    "platform": ["PS5", "Switch"]
+  },
+  {
+    "id": 3,
+    "name": "Ratchet & Clank: Rift Apart",
+    "price": 69.99,
+    "description": "Una aventura interdimensional que aprovecha al máximo las capacidades del PS5.",
+    "imageUrl": "/images/Ratchet-Clank-Rift-Apart-ps5.jpg",
+    "platform": ["PS5"]
+  },
+  {
+    "id": 4,
+    "name": "God of War Ragnarök",
+    "price": 79.99,
+    "description": "Kratos y Atreus se preparan para el fin de los tiempos en una épica nórdica.",
+    "imageUrl": "/images/god-of-war-ragnarok-ps5.jpg",
+    "platform": ["PS5"]
+  },
+  {
+    "id": 5,
+    "name": "Resident Evil 4 Remake",
+    "price": 59.99,
+    "description": "Reimaginación del clásico RE4 con gráficos modernos y nuevas mecánicas para PS5 y Switch.",
+    "imageUrl": "/images/resident-evil-4-remake-ps5.jpg",
+    "platform": ["PS5", "Switch"]
+  }
+]

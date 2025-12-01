@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="960" viewBox="0 0 640 960" role="img" aria-label="Ratchet & Clank: Rift Apart cover illustration">
+  <defs>
+    <linearGradient id="rc-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5925a8"/>
+      <stop offset="50%" stop-color="#0c2157"/>
+      <stop offset="100%" stop-color="#f55d2f"/>
+    </linearGradient>
+    <radialGradient id="rc-rift" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ff8ae2" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0c2157" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rc-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0b0b26" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="640" height="960" fill="url(#rc-bg)"/>
+  <rect width="640" height="180" fill="#f5f7ff"/>
+  <text x="40" y="130" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="72" font-weight="700" fill="#111">PS5</text>
+  <rect x="30" y="170" width="580" height="10" fill="#0f1a3d"/>
+  <circle cx="320" cy="480" r="230" fill="url(#rc-rift)"/>
+  <g filter="url(#rc-shadow)">
+    <path d="M250 360 q-25 110 20 200 q70 40 150 0 q50 -70 30 -170 q-60 -80 -200 -30z" fill="#f3c86b"/>
+    <path d="M230 430 q-60 30 -70 110 q70 65 130 30 q-15 -80 -60 -140z" fill="#ff9c3a"/>
+    <path d="M390 420 q90 -40 150 40 q-25 75 -110 70 q-45 -70 -40 -110z" fill="#58d3ff"/>
+    <path d="M300 545 q-28 90 -5 125 q65 30 110 0 q12 -60 -35 -130 q-25 -15 -70 5z" fill="#0f2144"/>
+    <path d="M325 390 q-35 -25 -70 -5 q-5 45 25 80 q30 -20 45 -75z" fill="#0f2144" opacity="0.85"/>
+    <path d="M365 390 q32 -30 70 -10 q8 45 -22 80 q-32 -20 -48 -70z" fill="#0f2144" opacity="0.85"/>
+  </g>
+  <text x="320" y="720" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="68" fill="#fefefe" letter-spacing="2">RATCHET &amp; CLANK</text>
+  <text x="320" y="770" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="54" fill="#fefefe" letter-spacing="5">RIFT APART</text>
+  <text x="320" y="825" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="26" fill="#e4e8ff" letter-spacing="3">DIMENSIÓN EN GUERRA</text>
+  <rect x="60" y="860" width="230" height="70" rx="10" fill="#f55d2f" stroke="#ffe1c2" stroke-width="4"/>
+  <text x="175" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="28" fill="#fff">PLATAFORMAS</text>
+  <rect x="350" y="860" width="230" height="70" rx="10" fill="#5925a8" stroke="#cfc1ff" stroke-width="4"/>
+  <text x="465" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica', sans-serif" font-size="28" fill="#efe9ff">ARMAS LOCALES</text>
+</svg>
