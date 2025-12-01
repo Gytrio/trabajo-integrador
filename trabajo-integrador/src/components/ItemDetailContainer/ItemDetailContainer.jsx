@@ -1,36 +1,62 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { ItemDetail } from "../ItemDetail/ItemDetail.jsx";
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+import { fetchProductById } from '../../services/products.js';
+import ItemDetail from '../ItemDetail/ItemDetail.jsx';
+import { categoryBackground } from '../../utils/platformColors.js';
+import './ItemDetailContainer.css';
 
-export const ItemDetailContainer = () => {
-    const [detail, setDetail] = useState(null);
-    const {id} = userParams();
-    
-    useEffect(() => {
-        fetch("/data/products.json")
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error("Error buscar productos");
-                }
-                return res.json();
-            })
-            .then((data) => {
-                const found = data.find((product) = product => product.id === Number(id));
-                if (found) {
-                    setDetail(found);
-                }
-                else
-                {
-                    throw new Error("No se encontro productos" );
-                }
-            })
-            .catch((error) => {
-                console.log(error);
-            })
-    }, [id]);
-    return (
-        <main>
-        {Object.keys(detail).length ? (<ItemDetail detail = {detail}/>):(<p>Cargando...</p>)}
-        </main>
-    )
-}
+const ItemDetailContainer = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    const loadProduct = async () => {
+      setLoading(true);
+      setError('');
+      try {
+        const data = await fetchProductById(id);
+        setProduct(data);
+      } catch (err) {
+        setError(err.message || 'No pudimos cargar el producto');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadProduct();
+  }, [id]);
+
+  const primaryPlatform = Array.isArray(product?.platform)
+    ? product.platform[0]?.toLowerCase()
+    : (product?.platform || '').toLowerCase();
+  const background = categoryBackground(primaryPlatform);
+
+  return (
+    <div className="item-detail-container p-4 rounded-3" style={{ background }}>
+      <button
+        type="button"
+        className="btn btn-outline-light mb-3"
+        onClick={() => navigate(-1)}
+      >
+        Volver
+      </button>
+      {product && (
+        <Helmet>
+          <title>{`${product.name} | GameVerse`}</title>
+          <meta name="description" content={product.description?.slice(0, 150)} />
+        </Helmet>
+      )}
+      {loading && <p className="item-detail-container-status text-white">Cargando producto...</p>}
+      {error && <p className="item-detail-container-status text-warning">{error}</p>}
+      {!loading && !error && product && (
+        <ItemDetail product={product} />
+      )}
+    </div>
+  );
+};
+
+export default ItemDetailContainer;

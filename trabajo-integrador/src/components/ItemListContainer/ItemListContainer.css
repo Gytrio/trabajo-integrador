@@ -1,0 +1,16 @@
+.item-list-container {
+  background-color: #0f172a;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.item-list-container-controls h2 {
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .item-list-container {
+    padding: 1.5rem;
+  }
+}

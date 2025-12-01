@@ -1,29 +1,13 @@
-import { Link } from "react-router-dom";
-import { Item } from "../Item/Item.jsx";
-import { useCartContext } from "../../Context/CartContext/useCartContext";
+import React from 'react';
+import Item from '../Item/Item.jsx';
+import './ItemList.css';
 
-export const ItemList = ({ list }) => {
-    const { addItem } = useCartContext();
+const ItemList = ({ products, currentCategory = 'all' }) => (
+  <div className="item-list row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+    {products.map((product) => (
+      <Item key={product.id} product={product} currentCategory={currentCategory} />
+    ))}
+  </div>
+);
 
-    return (
-        <>
-            {list.length ? (
-                list.map((product) => (
-                    <Item key={product.id} {...product}>
-                        <div className="product-actions">
-                            <button
-                                className="btn-add"
-                                onClick={() => addItem(product)}
-                            >
-                                Enviar al carrito
-                            </button>
-                        </div>
-                    </Item>
-                ))
-            ) : (
-                <p>No hay productos</p>
-            )}
-        </>
-    );
-};
-
+export default ItemList;

@@ -1,0 +1,19 @@
+.all-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.catalogo-wrapper {
+  width: 100%;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+@media (max-width: 576px) {
+  .all-productos h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.admin-login {
+  min-height: 70vh;
+}
+
+.admin-login .card {
+  border-radius: 16px;
+}
+
+.admin-login-form .form-control {
+  padding: 0.75rem 0.85rem;
+  border-radius: 10px;
+}
+
+.admin-login-form .btn-primary {
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 0.75rem;
+}
+
+.admin-login .btn-outline-secondary,
+.admin-login .btn-outline-danger {
+  border-radius: 12px;
+  font-weight: 600;
+}

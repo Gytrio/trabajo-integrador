@@ -1,0 +1,14 @@
+.search-bar .input-group-text {
+  background: transparent;
+  border-radius: 999px 0 0 999px;
+  color: #94a3b8;
+}
+
+.search-bar .form-control {
+  border-radius: 0 999px 999px 0;
+  padding-block: 0.75rem;
+}
+
+.search-bar {
+  width: 100%;
+}

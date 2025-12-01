@@ -1,0 +1,25 @@
+.admin-products-table th,
+.admin-products-table td {
+  vertical-align: middle;
+}
+
+.admin-products-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.admin-products-subtitle {
+  color: #ffffff;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

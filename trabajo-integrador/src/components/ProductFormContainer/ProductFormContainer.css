@@ -1,0 +1,11 @@
+.product-form {
+  border-radius: 16px;
+}
+
+.product-form .form-label {
+  font-weight: 700;
+}
+
+.product-form-actions {
+  gap: 1rem;
+}

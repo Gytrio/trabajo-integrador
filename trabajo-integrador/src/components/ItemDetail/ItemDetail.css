@@ -1,0 +1,26 @@
+.item-detail-image {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: contain;
+  background-color: #0b132b;
+  margin: 0 auto;
+  display: block;
+  border-radius: 18px;
+}
+
+.item-detail .badge {
+  color: #0b132b;
+  font-weight: 700;
+}
+
+.item-detail {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .item-detail-image {
+    height: 260px;
+  }
+}
