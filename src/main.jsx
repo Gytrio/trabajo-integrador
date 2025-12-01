@@ -8,7 +8,6 @@ import GlobalStyles from './styles/GlobalStyles.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'react-toastify/dist/ReactToastify.css';
-import { CartProvider } from './context/CartContext/CartProvider.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
